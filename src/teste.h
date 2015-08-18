@@ -9,11 +9,11 @@
 #define TESTE_H_
 
 typedef struct t_data {
-	int count;
-	int sum;
+	uint8_t count;
+	uint16_t sum;
 } T_DATA;
 
 /* Prototype */
-void func_inc(T_DATA *t_data_param);
+void func_inc(T_DATA *t_data_ptr);
 
 #endif /* TESTE_H_ */
